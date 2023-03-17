@@ -17,7 +17,13 @@
 
 number = int (input ('Введите максимальное число: '))
 result = 1
+# for i in range (number):
+#         while result < number:
+#             print (result)
+#             result *=2
+
+
 for i in range (number):
         while result < number:
-            print (result)
+            print (result, end=',')
             result *=2
